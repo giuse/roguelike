@@ -8,17 +8,20 @@ package roguelike;
  */
 public class GameState {
 
-    int[][] walls;
-    int[][] immovableWalls;
-    int[][] holes;
-    int[] start; // starting position
-    int[] exit; //
+    public GameState (int size) {
+        this.size = size;
+    }
 
-    int[] agentPosition; //position of the agent
+    public final int size;
 
-    int[][] nihilistPositions; // positions of nihilists
+    public int[][] walls; // positions of movable walls
+    public int[][] immovableWalls; // positions of immovable walls - should never change
+    public int[][] holes; // positions of holes - should also not change
+    // public int[] start; // starting position
+    public int[] exit; // position of the exit from the level
 
+    public int[] agent; //position of the agent
 
-
+    public int[][] nihilists; // positions of nihilists
 
 }
