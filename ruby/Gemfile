@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'pry-nav' # Giuse debug
+gem 'factory_girl'
+gem 'rspec'
