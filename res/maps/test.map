@@ -1,12 +1,7 @@
 # Header: map size (shape is a regular polygon)
 3
 
-# Actual map:
-# - dot is navigable cell
-# - white space is ignored
-# - w is unmovable wall
-# - m is movable wall
-# - outside the size we have unmovable wall
+# Actual map (see README.md for description)
 
 .w.
 .w.
